@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('../Assets/anastase-maragos-9dzWZQWZMdE-unsplash.jpg');
+    background-size: cover;
+}
+
+.frame {
+    display: flex;
+    width: 1100px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.frame-left {
+    flex: 1;
+    background-color: #ddd;
+}
+
+.frame-left img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+
+.frame-right {
+    flex: 1;
+    padding: 40px;
+}
+
+.frame .frame-right{
+    display: flex;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    /* margin-bottom: 20px; */
+    border-radius: 50%;
+}
+
+form{
+    width: 100%;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+    border: none;
+    margin-top: 20px;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 2px solid #000;
+    outline: none;
+}
+
+#submit{
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(0, 139, 0);
+    margin-top: 20px;
+    padding: 15px;
+}
+
+#submit:hover {
+    background-color: rgb(24, 212, 24);
+    cursor: pointer;
+}
